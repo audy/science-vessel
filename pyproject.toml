@@ -20,4 +20,5 @@ dependencies = [
     "ruff>=0.6.9",
     "scipy>=1.14.1",
     "taxonomy>=0.10.0",
+    "tqdm>=4.66.5",
 ]
