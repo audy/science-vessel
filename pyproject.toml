@@ -14,6 +14,7 @@ dependencies = [
     "mypy>=1.11.2",
     "numpy>=2.1.2",
     "onecodex>=0.16.0",
+    "openpyxl>=3.1.5",
     "pandas>=2.2.3",
     "polars>=1.9.0",
     "ruff>=0.6.9",
