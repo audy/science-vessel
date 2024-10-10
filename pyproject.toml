@@ -1,0 +1,22 @@
+[project]
+name = "science"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.4.1",
+    "black>=24.10.0",
+    "catppuccin-jupyterlab>=0.2.4",
+    "flake8>=7.1.1",
+    "jupyterlab>=4.2.5",
+    "matplotlib>=3.9.2",
+    "mypy>=1.11.2",
+    "numpy>=2.1.2",
+    "onecodex>=0.16.0",
+    "pandas>=2.2.3",
+    "polars>=1.9.0",
+    "ruff>=0.6.9",
+    "scipy>=1.14.1",
+    "taxonomy>=0.10.0",
+]
