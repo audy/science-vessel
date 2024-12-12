@@ -605,6 +605,15 @@ wheels = [
 ]
 
 [[package]]
+name = "isort"
+version = "5.13.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/87/f9/c1eb8635a24e87ade2efce21e3ce8cd6b8630bb685ddc9cdaca1349b2eb5/isort-5.13.2.tar.gz", hash = "sha256:48fdfcb9face5d58a4f6dde2e72a1fb8dcaf8ab26f95ab49fab84c2ddefb0109", size = 175303 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d1/b3/8def84f539e7d2289a02f0524b944b15d7c75dab7628bedf1c4f0992029c/isort-5.13.2-py3-none-any.whl", hash = "sha256:8ca5e72a8d85860d5a3fa69b8745237f2939afe12dbf656afbcb47fe72d947a6", size = 92310 },
+]
+
+[[package]]
 name = "jedi"
 version = "0.19.2"
 source = { registry = "https://pypi.org/simple" }
@@ -819,6 +828,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/c3/ca/b80ea37f800b7d0b96088dec04d59b4575eb33e59ca1ca19d23885fb6fe6/jupyterlab-4.3.3.tar.gz", hash = "sha256:76fa39e548fdac94dc1204af5956c556f54c785f70ee26aa47ea08eda4d5bbcd", size = 21797278 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c1/ce/6731e54aacbe91daa439ae895763fe9d91952ce96cd0e3f94d8d13229717/jupyterlab-4.3.3-py3-none-any.whl", hash = "sha256:32a8fd30677e734ffcc3916a4758b9dab21b02015b668c60eb36f84357b7d4b1", size = 11665394 },
+]
+
+[[package]]
+name = "jupyterlab-code-formatter"
+version = "3.0.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "jupyter-server" },
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ea/a0/279f8ab354f944cd54fc124eeb6112f4d4fd22c6834e96ca48a13bc015a4/jupyterlab_code_formatter-3.0.2.tar.gz", hash = "sha256:55adb8fa8b9bd58f0b39e7d3ead6c1e862e9ebc1444a66cdb4233d8dc6351d4b", size = 3323619 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7b/82/198e37071ca3f5709b80b19d99b5498f75f020e9052b8f7f750bd3580ad6/jupyterlab_code_formatter-3.0.2-py3-none-any.whl", hash = "sha256:9f4c5be0a5296029207d965da7b65621aa8a06d39fc3a5d8e59d1f3db88997fd", size = 33034 },
 ]
 
 [[package]]
@@ -1727,7 +1749,9 @@ dependencies = [
     { name = "black" },
     { name = "catppuccin-jupyterlab" },
     { name = "flake8" },
+    { name = "isort" },
     { name = "jupyterlab" },
+    { name = "jupyterlab-code-formatter" },
     { name = "matplotlib" },
     { name = "mypy" },
     { name = "numpy" },
@@ -1749,7 +1773,9 @@ requires-dist = [
     { name = "black", specifier = ">=24.10.0" },
     { name = "catppuccin-jupyterlab", specifier = ">=0.2.4" },
     { name = "flake8", specifier = ">=7.1.1" },
+    { name = "isort", specifier = ">=5.13.2" },
     { name = "jupyterlab", specifier = ">=4.2.5" },
+    { name = "jupyterlab-code-formatter", specifier = ">=3.0.2" },
     { name = "matplotlib", specifier = ">=3.9.2" },
     { name = "mypy", specifier = ">=1.11.2" },
     { name = "numpy", specifier = ">=2.1.2" },
