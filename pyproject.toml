@@ -3,20 +3,22 @@ name = "science"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "altair>=5.4.1",
+    "biopython>=1.85",
     "black>=24.10.0",
     "catppuccin-jupyterlab>=0.2.4",
+    "downloads>=1.1.0",
     "flake8>=7.1.1",
     "isort>=5.13.2",
     "jupyterlab-code-formatter>=3.0.2",
     "jupyterlab>=4.2.5",
     "matplotlib>=3.9.2",
     "mypy>=1.11.2",
+    "needletail==0.6.3",
     "nf-core>=3.2.0",
-    "numpy>=2.1.2",
-    "onecodex>=0.16.0",
+    "onecodex[all,reports]>=0.16.0",
     "openpyxl>=3.1.5",
     "pandas>=2.2.3",
     "polars>=1.9.0",
@@ -24,6 +26,7 @@ dependencies = [
     "ruff>=0.6.9",
     "scipy>=1.14.1",
     "seaborn>=0.13.2",
+    "tabview>=1.4.4",
     "taxonomy>=0.10.0",
     "tqdm>=4.66.5",
 ]
