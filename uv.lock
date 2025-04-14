@@ -930,6 +930,20 @@ wheels = [
 ]
 
 [[package]]
+name = "itables"
+version = "2.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "ipython" },
+    { name = "numpy" },
+    { name = "pandas" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/84/e4/627d9c41d07a7117a2147e44c96e6bdc579c31d6889d3adb5630fbd189fa/itables-2.3.0.tar.gz", hash = "sha256:ce570e3f888e7baf5e9cb0416a2e1c981c09c49e81d2fb80e8bc574b169c250b", size = 2259074 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/c7/ae4ddcae20b2a7cfafa40c737d0d003c94804b68f3c168653deb468427e7/itables-2.3.0-py3-none-any.whl", hash = "sha256:1d78a38d04c13d30437a0544c16b572d2f38f5e480810f3964c4f32e558b7ee3", size = 2289497 },
+]
+
+[[package]]
 name = "jedi"
 version = "0.19.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2506,6 +2520,7 @@ dependencies = [
     { name = "downloads" },
     { name = "flake8" },
     { name = "isort" },
+    { name = "itables" },
     { name = "jupyterlab" },
     { name = "jupyterlab-code-formatter" },
     { name = "matplotlib" },
@@ -2534,6 +2549,7 @@ requires-dist = [
     { name = "downloads" },
     { name = "flake8" },
     { name = "isort" },
+    { name = "itables", specifier = ">=2.3.0" },
     { name = "jupyterlab" },
     { name = "jupyterlab-code-formatter" },
     { name = "matplotlib" },

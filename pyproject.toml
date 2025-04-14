@@ -29,4 +29,5 @@ dependencies = [
     "tabview",
     "taxonomy",
     "tqdm",
+    "itables>=2.3.0",
 ]
