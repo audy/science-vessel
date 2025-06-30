@@ -30,4 +30,5 @@ dependencies = [
     "taxonomy",
     "tqdm",
     "itables>=2.3.0",
+    "finch-sketch>=0.6.2",
 ]
