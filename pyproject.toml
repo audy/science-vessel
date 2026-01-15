@@ -3,7 +3,7 @@ name = "science"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = "==3.12.*"
+requires-python = "==3.13.*"
 dependencies = [
     "altair>=5.5.0",
     "biopython",
@@ -23,7 +23,7 @@ dependencies = [
     "nbstripout>=0.8.1",
     "needletail",
     "nf-core",
-    "onecodex[all,reports] @ git+https://github.com/onecodex/onecodex.git",
+    "onecodex[all,reports]==0.19.2",
     "openpyxl",
     "pandas",
     "polars",
