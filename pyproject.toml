@@ -23,7 +23,7 @@ dependencies = [
     "nbstripout>=0.8.1",
     "needletail",
     "nf-core",
-    "onecodex[all,reports] @ git+https://github.com/onecodex/onecodex.git@v1.0.0",
+    "onecodex[all,reports]==1.0.0",
     "openpyxl",
     "pandas",
     "polars",
